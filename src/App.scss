@@ -1,0 +1,132 @@
+@font-face {
+  font-family: "Clobber-Grotesk";
+  src: url("./asset/fonts/Clobber.Grotesk/ClobberGrotesk-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Clobber-Grotesk";
+  src: url("./asset/fonts/Clobber.Grotesk/ClobberGrotesk-Regular.ttf");
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Clobber-Grotesk";
+  src: url("./asset/fonts/Clobber.Grotesk/ClobberGrotesk-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Clobber-Grotesk";
+  src: url("./asset/fonts/Clobber.Grotesk/ClobberGrotesk-DemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "Clobber-Grotesk";
+  src: url("./asset/fonts/Clobber.Grotesk/ClobberGrotesk-Bold.ttf");
+  font-weight: 700;
+}
+
+body {
+  background-color: #080210;
+  color: #fff;
+  font-family: "Clobber-Grotesk", sans-serif;
+}
+
+.bg-gradient {
+  background: linear-gradient(90deg, #9796f0 0%, #fbc7d4 100%);
+}
+
+.bg-gradient-2 {
+  background: linear-gradient(
+    51deg,
+    rgba(221, 214, 243, 0.2) 5.89%,
+    rgba(250, 172, 168, 0) 93.26%
+  );
+}
+
+.bg-gradient-3 {
+  background: linear-gradient(
+    110deg,
+    #6ca0e3 -5.55%,
+    #aca3de 2.67%,
+    #b3a9d7 10.36%,
+    #85e4b2 14.94%,
+    #70d6dd 19.8%,
+    #97acf1 23.97%,
+    #d9b9e1 28.73%,
+    #e7ddd5 33.09%,
+    #e5cbd9 40.68%,
+    #e4b7df 48.72%,
+    #b8b6e9 56.17%,
+    #8db6f2 65.45%,
+    #b2a9f0 73.83%,
+    #e3b2e8 79.67%,
+    #e9ddda 85.96%,
+    #81f5f7 93.28%,
+    #7ba3f4 98.61%
+  );
+}
+
+.bg-caller {
+  background: rgba(28, 22, 36, 0.5);
+}
+
+.text-gradient {
+  background: conic-gradient(
+    from 140deg at 50.42% 51.28%,
+    #b6d0f7 0deg,
+    #eef4e1 82.50000178813934deg,
+    #e2c1f9 155.6249964237213deg,
+    #bfd1f9 209.30935621261597deg,
+    #fafcfe 252.6490044593811deg,
+    #bae4e2 288.7499928474426deg,
+    #8c6be3 341.2500071525574deg,
+    #c0d7f3 360deg
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-2 {
+  background: linear-gradient(
+    110deg,
+    #6ca0e3 -5.55%,
+    #aca3de 2.67%,
+    #b3a9d7 10.36%,
+    #85e4b2 14.94%,
+    #70d6dd 19.8%,
+    #97acf1 23.97%,
+    #d9b9e1 28.73%,
+    #e7ddd5 33.09%,
+    #e5cbd9 40.68%,
+    #e4b7df 48.72%,
+    #b8b6e9 56.17%,
+    #8db6f2 65.45%,
+    #b2a9f0 73.83%,
+    #e3b2e8 79.67%,
+    #e9ddda 85.96%,
+    #81f5f7 93.28%,
+    #7ba3f4 98.61%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient-3 {
+  background: linear-gradient(90deg, #9796f0 0%, #fbc7d4 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.App {
+  overflow: hidden;
+}
+
+// @media screen and (min-width: 1024px) {
+//   .container {
+//     max-width: 1100px;
+//   }
+// }
